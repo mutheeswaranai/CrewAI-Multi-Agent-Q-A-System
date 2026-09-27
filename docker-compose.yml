@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  support-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./output:/app/output  # Connects the container's output folder to your real output folder
+    env_file:
+      - .env

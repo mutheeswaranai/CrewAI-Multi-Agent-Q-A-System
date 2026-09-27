@@ -1,0 +1,14 @@
+# Security (NEVER upload API keys)
+.env
+
+# Agent Outputs (We don't need to save generated responses)
+output/
+
+# Python built-in caches and virtual environments
+__pycache__/
+*.pyc
+env/
+.venv/
+
+# Mac system files (if you are on a Mac)
+.DS_Store
